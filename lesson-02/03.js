@@ -7,4 +7,4 @@ const giveMeRightNumbers = (value1, value2, maximum) => {
         console.log('Something wrong!');
     }
 }
-giveMeRightNumbers(300, 100, 200)
+giveMeRightNumbers(3, 1, 2)
