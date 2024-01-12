@@ -19,4 +19,4 @@ const giveMeRightCondition = (value1, value2, maximum) => {
   }
 };
 
-giveMeRightCondition(300, 100, 200);
+giveMeRightCondition(100, 100, 50);

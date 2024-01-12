@@ -7,7 +7,7 @@ const giveMeRightNumbers = (value1, value2, maximum) => {
         console.log('Something wrong!');
     }
 }
-giveMeRightNumbers(300, 100, 200)
+giveMeRightNumbers(1, 2, 3)
 
 // const giveMeRightNumbers = (value1, value2, maximum) => {
 //     if (value1 === value2 || value1 <= maximum) {
