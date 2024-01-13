@@ -6,9 +6,9 @@ let passport = {
   surname: "Petrov",
 };
 
-// let passport2 = {...passport}
-let passport2 = structuredClone(passport);
-passport2.name = "Ivan";
+let passportCopy = {...passport}
+
+passportCopy.name = "Ivan";
 
 console.log(passport);
-console.log(passport2);
+console.log(passportCopy);
