@@ -10,5 +10,5 @@ let passportCopy = {...passport}
 
 passportCopy.name = "Ivan";
 
-console.log(passport);
-console.log(passportCopy);
+console.log(passport.name);
+console.log(passportCopy.name);
