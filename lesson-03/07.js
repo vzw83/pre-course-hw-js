@@ -11,6 +11,6 @@ const numbers = [
 
 // Полученный результат выведи в консоль
 
-numbers.map(arr=>arr.map(el=>el>1 && el % 2 === 0 ? console.log(el) : el))
+console.log(numbers.map(arr=>arr.filter(el=>el%2===0)))
 
 // el!==1 || el%2===0)
