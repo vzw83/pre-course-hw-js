@@ -20,7 +20,6 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
-    
 
 
 
@@ -33,8 +32,7 @@ const newObj = {
     address: 'Unknown'
 }
 
-const user = [...users2, newObj]
+console.log([...users2, newObj])
 
-console.log(user)
 
 // Полученный результат выведи в консоль
